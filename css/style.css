@@ -1,10 +1,11 @@
-body{
-height: auto;
-width: 100%;
-position: relative;
+body {
+    height: auto;
+    width: 100%;
+    position: relative;
 
 
 }
+
 .sectionone {
     height: 100vh;
     width: 100%;
@@ -15,7 +16,6 @@ position: relative;
 * {
     margin: 0px;
     font-family: sans-serif;
-    width: ;
 
 }
 
@@ -28,7 +28,7 @@ position: relative;
     display: inline;
     color: white;
     margin-left: 20px;
-    text-decoration: n;
+    text-decoration: none;
 
 }
 
@@ -60,23 +60,24 @@ position: relative;
     padding-right: 20px;
     justify-content: space-between;
     background-color: crimson;
-    position:fixed;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
 }
 
 .chat {
-    height: 5%;
-    width: 5%;
-    background-color: turquoise;
-    border-radius: 10;
-    position: fixed;
-    bottom: 0;
-    color: white;
-
-
-
+  height: 50px;
+  width: 50px;
+background-color: red;
+position: fixed;
+bottom: 0;
+border-radius: 50%;
+right: 0;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -166,6 +167,7 @@ position: relative;
     text-align: center;
 }
 
+
 .divbox {
     height: 80vh;
     width: 100%;
@@ -176,8 +178,6 @@ position: relative;
     justify-content: center;
     justify-content: space-evenly;
     margin-top: 10px;
-    margin-left: 20px;
-    padding-left: 30px;
     padding-top: 20px;
 
 }
@@ -185,15 +185,24 @@ position: relative;
 .divbox h2 {
     color: white;
     font-weight: 100px;
-
-    .imagea {
-        padding-left: 50px;
-        margin left: 40px;
-    }
-
-
 }
 
+
+
+.imagea {
+    padding-left: 50px;
+    margin-left: 40px;
+}
+
+.imageb {
+    padding-left: 50px;
+    margin-left: 40px;
+}
+
+.imagec {
+    padding-left: 50px;
+    margin-left: 40px;
+}
 .imagea img {
     height: 50px;
     width: 50px;
@@ -205,6 +214,7 @@ position: relative;
     height: 50px;
     width: 50px;
     margin-top: 20px;
+   
 }
 
 .imagec img {
@@ -315,9 +325,6 @@ position: relative;
     justify-content: space-between;
 }
 
-
-
-
 .section5 {
     height: 100vh;
     width: 100%;
@@ -340,16 +347,16 @@ position: relative;
 }
 
 .sec6 {
-
     display: flex;
-    height: auto;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.box1>p {
+.box1 p {
     width: 400px;
     font-weight: bold;
     font-family: sans-serif;
@@ -366,37 +373,45 @@ position: relative;
 }
 
 .line {
-    height: auto;
-    width: 800%;
+    width: 100%;
     display: flex;
-    align-content: space-between;
-
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
-hr {
-    margin-top: 10px;
-    border-top: 5px solid red;
-    width: 500px;
+.line hr {
+    width: 30%;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+
+}
+
+.line p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
 }
 
 .sec7 {
-    height: 100vh;
-    width: 900px;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 
 }
 
 .sec7 h1 {
     font-weight: bold;
-    color: black;
+    color: rgb(95, 91, 91);
     background-size: cover;
-    font-size: 18px;
+    font-size: 15px;
+
 }
 
 .sec7 img {
@@ -416,10 +431,9 @@ hr {
 }
 
 .main8 {
-    height: 100vh;
-    width: auto;
-    margin-left: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
 
@@ -452,23 +466,217 @@ hr {
     background-size: cover;
 }
 
-.sec8{
-    display: flex;
-    height: auto;
+.sec9 {
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 30px;
+    text-align: center;
+}
+
+.log {
+    height: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.dinner {
+    text-align: center;
+    width: 100%;
+}
+
+.dinner h2 {
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+
+}
+
+.dinner button {
+    background-color: red;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.dinner p {
+    margin-top: 20px;
+    font-size: 10px;
+    color: grey;
+}
+
+.dinner hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+}
+
+.section9 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.section9 a {
+    text-decoration: none;
+    color: rgb(245, 20, 20);
+    font-size: 13px;
+
+
+}
+
+.section9 h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.section9 img {
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.holiday {
+    width: 140px;
+    font-size: 10px;
+    color: gray;
+
+}
+
+.a9a {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.a9b {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.a9c {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.a9d {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+.nsmain {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.nsmain h2 {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.nsmain img {
+    width: 10px;
+    margin-top: 3px;
+}
+
+.nsmain button{
+border: none;
+color: rgb(245, 245, 245);
+background-color: red;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 0px;
+  }
+
+  .nsmain h6{
+text-align: left;
+margin-top: 3px;
+  }
+
+  .nsmain p{
+    text-align: left;
+    margin-top: 3px;
+    font-size: 10px;
+    color: red;
+      }
     
+      .divreview{
+display: flex;
+
+
+      }
+
+.a9a a{
+margin-bottom: 30px;
+padding-bottom: 30px;
+
 
 }
 
-.s8a log{
-align-items: center;
+.subscribe{
+display: flex;
+}
+
+.subscribe input{
+border: grey;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe button{
+border-radius: 0px 5px 5px 0px;
+}
+
+.follow{
+display: flex;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.h2{
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+.divre{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 
 
 }
 
-.s8a hr{
-color: cadetblue;
+.divfollow{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+
 }
